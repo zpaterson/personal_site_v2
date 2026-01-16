@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+@source "./src/theme/**/*.{ts,tsx}";
+@plugin "flowbite-typography";
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  max-height: 100%;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
